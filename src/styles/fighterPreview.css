@@ -1,0 +1,36 @@
+.fighter-preview___root {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 250px;
+}
+
+.fighter-preview___right {
+  align-items: flex-end;
+}
+
+.fighter-preview___left {
+  align-items: flex-start;
+}
+
+.fighter-name {
+  
+  font-size:32px;
+	color:bisque;
+  text-shadow: 4px 4px darkolivegreen;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fighter-info {
+  
+  height: 10%;
+  width: 60%;
+  background-color: darkolivegreen;
+  color: bisque;
+  align-items: center;
+  padding: 5px ;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.right-fighter {
+  transform: scaleX(-1);
+}
